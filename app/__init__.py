@@ -1,12 +1,15 @@
 import os
-import urllib.parse
+try:
+    import urllib.parse as urlparse
+except ImportError:
+    from urlparse import urlparse
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
 
 db_string = os.environ['dbstring']
-params = urllib.parse.quote_plus(db_string)
+params = urlparse.quote_plus(db_string)
 
 # initialization
 app = Flask(__name__)
