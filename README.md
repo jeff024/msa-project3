@@ -30,25 +30,25 @@ Running this project on a local machine is simple:
     - It has a navigation bar on the top
     - All links in the page works
 
-    <img src="https://github.com/jeff024/msa-project3/blob/master/imgs/home.PNG" width="500">
+    <img src="https://github.com/jeff024/msa-project3/blob/master/imgs/home.PNG" width="700">
 2. All Posts Page
     - This is the All Posts page of the web app
     - This page will display all the posts in the database
     - It has a navigation bar on the top
     - All links in the page works
 
-    <img src="https://github.com/jeff024/msa-project3/blob/master/imgs/all.PNG" width="500">
+    <img src="https://github.com/jeff024/msa-project3/blob/master/imgs/all.PNG" width="700">
 
 3. Post Detail Page
     - After Clicking Read More Button in home page or all  posts page, this page will pop up
     - The user can edit or delete a post in this page
 
-    <img src="https://github.com/jeff024/msa-project3/blob/master/imgs/detail.PNG" width="500">
+    <img src="https://github.com/jeff024/msa-project3/blob/master/imgs/detail.PNG" width="700">
 
 4. AboutMe Page
     - This page is static and will display some personal information about myself
 
-    <img src="https://github.com/jeff024/msa-project3/blob/master/imgs/aboutme.PNG" width="500">
+    <img src="https://github.com/jeff024/msa-project3/blob/master/imgs/aboutme.PNG" width="700">
 
 ## Issues
 Although this web app works perfectly on local machine, I cannot put it in Azure Web Service Since there will be Application Error
